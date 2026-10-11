@@ -16,7 +16,7 @@ sofiaboukobbalegouy.github.io
 - HTML: Langage de description utilisé pour concevoir les pages web
 - CSS: Langage de style utilisé pour mettre en forme les pages web
 - Bootstrap: Framework graphique utilisé pour faciliter la création de pages web (utilisation d'un base de règles CSS existantes)
-- Git: Logiciel de gestion de vrsion
+- Git: Logiciel de gestion de version
 - GitHub: Forge logicielle en ligne utilisant Git
 
 2. Pour l'épreuve E5
