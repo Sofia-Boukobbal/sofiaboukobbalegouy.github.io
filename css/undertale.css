@@ -1,9 +1,104 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/* 
-    Created on : 20 sept. 2026, 20:07:03
-    Author     : sofinotte
-*/
+/* ===== Couleurs du thème ===== */
+:root {
+  --noir: #000000;
+  --blanc: #ffffff;
+  --jaune: #ffff00;
+  --rouge: #ff0000;
+}
 
+/* ===== Base de la page ===== */
+body {
+  background-color: var(--noir);
+  color: var(--blanc);
+  font-family: 'VT323', monospace;
+  font-size: 1.5rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Press Start 2P', monospace;
+  color: var(--jaune);
+  line-height: 1.5;
+}
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.2rem; }
+
+/* Le jumbotron devient une boîte de dialogue */
+.jumbotron {
+  background-color: var(--noir);
+  border: 4px solid var(--blanc);
+  border-radius: 0;
+}
+
+/* ===== Barre de navigation ===== */
+.navbar {
+  background-color: var(--noir) !important;
+  border-bottom: 4px solid var(--blanc);
+}
+
+.navbar-brand,
+.navbar .nav-link {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.8rem;
+  color: var(--blanc) !important;
+  text-transform: uppercase;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .active > .nav-link {
+  color: var(--jaune) !important;
+}
+.navbar .nav-link:hover::before {
+  content: "♥ ";
+  color: var(--rouge);
+}
+
+/* ===== Menus déroulants ===== */
+.dropdown-menu {
+  background-color: var(--noir);
+  border: 4px solid var(--blanc);
+  border-radius: 0;
+}
+.dropdown-header {
+  color: var(--jaune);
+}
+.dropdown-item a {
+  color: var(--blanc);
+  text-decoration: none;
+}
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: var(--noir);
+}
+.dropdown-item:hover a {
+  color: var(--jaune);
+}
+
+/* ===== Boîtes de dialogue ===== */
+.dialogue {
+  background-color: var(--noir);
+  border: 4px solid var(--blanc);
+  padding: 1.5rem;
+  height: 100%;
+}
+
+/* ===== Boutons ===== */
+.btn-secondary {
+  background-color: var(--noir);
+  border: 4px solid var(--blanc);
+  border-radius: 0;
+  color: var(--blanc);
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.7rem;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: var(--noir);
+  border-color: var(--jaune);
+  color: var(--jaune);
+  box-shadow: none;
+}
+.btn-secondary:hover::before {
+  content: "♥ ";
+  color: var(--rouge);
+}
