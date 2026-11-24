@@ -1,6 +1,6 @@
 
 body { padding-top: 50px; }
-.cadreCV { padding-bottom: 15px; background: white; }
+.cadreCV { padding-bottom: 15px; background: black; }
 
 /****************************************
 *     Entête du CV
@@ -100,7 +100,7 @@ body { padding-top: 50px; }
                 -moz-filter: grayscale(1); -ms-filter: grayscale(1);
                 -o-filter: grayscale(1); height: 32px; width: 32px; 
                 margin: 2px 0; }
-.meContacter a, .meContacter a:hover { text-decoration: none; color: black; }
+.meContacter a, .meContacter a:hover { text-decoration: none; color: white; }
 .meContacter a:hover>img { 
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
@@ -134,6 +134,6 @@ body { padding-top: 50px; }
 /******************************************
 *     Passions
 ******************************************/
-.passion{ color: #8A2D2D; display: inline-block; margin-right: 5px;
+.passion{ color: #E3D200; display: inline-block; margin-right: 5px;
           margin-bottom: 5px; padding: 5px 5px 5px 5px; background: #1F1E1E;
           position: relative; font-size: 1.2em; border-radius: 10px; }
